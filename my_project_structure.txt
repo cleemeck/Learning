@@ -1,0 +1,44 @@
+Each python projects involving learning should go something like this:
+1. project name snake_case only.
+2. 'experiments' directory for all jupyter notebooks and simple scripts
+3. and the rest like so:
+hello_world/
+│
+├── bin/
+│
+├── docs/
+│   ├── hello.md
+│   └── world.md
+│
+├── hello_world/
+│   ├── __init__.py
+│   ├── runner.py
+│   ├── hello/
+│   │   ├── __init__.py
+│   │   ├── hello.py
+│   │   └── helpers.py
+│   │
+│   └── world/
+│       ├── __init__.py
+│       ├── helpers.py
+│       └── world.py
+│
+├── data/
+│   ├── input.csv
+│   └── output.xlsx
+│
+├── tests/
+│   ├── hello
+│   │   ├── helpers_tests.py
+│   │   └── hello_tests.py
+│   │
+│   └── world/
+│       ├── helpers_tests.py
+│       └── world_tests.py
+│
+├── experiments/
+│   ├── intro_to_world.ipynb
+│
+├── .gitignore
+├── LICENSE
+└── README.md
